@@ -1,0 +1,13 @@
+{
+  "DESIGN_NAME": "aes_128_ofb",
+  "VERILOG_FILES": ["aes_128_ofb.v", "aes_key_expand_128.v", "aes_sbox.v", "aes_rcon.v"],
+  "CLOCK_PERIOD": 10,
+  "CLOCK_PORT": "clk",
+  "CLOCK_NET": "clk",
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 300 300",
+  "PL_TARGET_DENSITY": 0.55,
+  "routing_cores": 16,
+  "pdk": "sky130A",
+  "tech_name": "sky130A"
+}
